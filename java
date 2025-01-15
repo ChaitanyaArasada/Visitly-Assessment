@@ -33,7 +33,6 @@ public class JwtUtil {
     }
 }
 
-
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
@@ -53,8 +52,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .addFilterBefore(new JwtRequestFilter(jwtUtil), UsernamePasswordAuthenticationFilter.class);
     }
 }
-
-
 
 @PutMapping("/{id}")
 public User updateUser(@PathVariable Long id, @RequestBody User user) {
@@ -76,9 +73,6 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }
-
-
-
 
 @SpringBootTest
 public class UserServiceTest {
