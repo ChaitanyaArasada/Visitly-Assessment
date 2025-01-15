@@ -1,4 +1,4 @@
-# Full-Stack Application: Spring Boot Backend with React Frontend
+ # Full-Stack Application: Spring Boot Backend with React Frontend
 
 ## Overview
 This is a multi-environment full-stack application with:
@@ -19,4 +19,5 @@ This is a multi-environment full-stack application with:
 ### Backend
 1. Clone the repository:
    ```bash
- 
+   git clone https://github.com/username/repo-name.git
+   cd backend
