@@ -16,6 +16,9 @@ This is a multi-environment full-stack application with:
 
 ## Setup Instructions
 
+
+## 
+incluiding the complete backend and frontend script in one file called java and seperately filed javascript in one file called javascript once check
 ### Backend
 1. Clone the repository:
    ```bash
