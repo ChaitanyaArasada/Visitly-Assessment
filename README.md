@@ -21,3 +21,20 @@ This is a multi-environment full-stack application with:
    ```bash
    git clone https://github.com/username/repo-name.git
    cd backend
+
+
+   Run the Spring Boot application:
+bash
+Frontend
+Navigate to the frontend directory:
+bash
+Copy code
+cd frontend
+Install dependencies:
+bash
+Copy code
+npm install
+Start the React development server:
+bash
+Copy code
+npm start
